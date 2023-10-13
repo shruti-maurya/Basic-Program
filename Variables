@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main() {
+  int age = 45;
+  char guess = '#';
+  float salary = 45,000.456;
+  double gst = 234.4578;
+
+  printf("Charcter value is %c\n", guess);
+
+  printf("Integer value is %d\n", age);
+
+  printf("floating-point value is %.2f\n", salary);
+
+  printf("double value is %.2f\n", gst);
+
+  return 0;
+}
+  
