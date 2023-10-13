@@ -1,0 +1,25 @@
+#include <stdio.h>
+// volume of cube, sphere and cylinder & Area of rectangle, square and circle
+#define PI 3.1415
+int main() {
+int s, l, b, r, h;
+printf("Enter length and breadth : ");
+scanf("%d %d", &l, &b);
+printf("Enter side and height : ");
+scanf("%d %d", &s, &h);
+printf("Enter radius : ");
+scanf("%d", &r);
+
+printf("Area of square is %d\n", s*s);
+
+printf("Area of rectangle is %d\n", l*b);
+
+printf("Area of circle is %f\n", PI*r*r);
+
+printf("Volume of cube is %d\n", 6*s*s);
+
+printf("Volume of sphere is %f\n", 4*PI*r*r)
+
+printf("Volume of cylinder is %f\n", 2*PI*r*9(r+h));
+return 0;
+}
